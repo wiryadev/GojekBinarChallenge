@@ -70,5 +70,20 @@
             android:text="@string/search_placeholder" />
     </LinearLayout>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_services"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginTop="16dp"
+        android:alpha="1"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gopay"
+        app:spanCount="4"
+        tools:itemCount="8"
+        tools:listitem="@layout/item_main_service" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
