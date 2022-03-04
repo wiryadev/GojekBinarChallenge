@@ -19,12 +19,19 @@
                 android:paddingHorizontal="16dp"
                 android:layout_height="match_parent">
 
-                <SearchView
+                <!-- Use button because it only has clickable properties -->
+                <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="0dp"
                     android:layout_height="36dp"
                     android:layout_marginEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="12dp"
+                    android:textSize="14sp"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                    android:drawableStart="@drawable/ic_round_search_24"
                     android:background="@drawable/rounded_rectangle_white_24dp"
-                    android:queryHint="@string/search_placeholder"
+                    android:text="@string/search_placeholder"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/iv_account"
                     app:layout_constraintStart_toStartOf="parent"
