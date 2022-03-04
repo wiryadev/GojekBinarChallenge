@@ -11,4 +11,5 @@
     <color name="grey_200">#CDCDCD</color>
     <color name="red_500">#D82D2D</color>
     <color name="orange_500">#FF5404</color>
+    <color name="orange_50">#FFE7DB</color>
 </resources>
