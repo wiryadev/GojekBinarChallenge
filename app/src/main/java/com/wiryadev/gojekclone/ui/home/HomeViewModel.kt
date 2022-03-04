@@ -13,6 +13,11 @@ class HomeViewModel : ViewModel() {
     }
     val mainServices: LiveData<List<MainService>> = _mainServices
 
+    private val _quickAccess = MutableLiveData<List<MainService>>().apply {
+        value = getQuickAccess()
+    }
+    val quickAccess: LiveData<List<MainService>> = _quickAccess
+
     private fun getMainService(): List<MainService> {
         return listOf(
             MainService("GoRide", R.drawable.ic_round_sports_motorsports_24, R.color.green_500),
@@ -23,6 +28,13 @@ class HomeViewModel : ViewModel() {
             MainService("GoPulsa", R.drawable.ic_round_charging_station_24, R.color.teal_200),
             MainService("Check In", R.drawable.ic_round_family_restroom_24, R.color.teal_200),
             MainService("More", R.drawable.ic_round_dashboard_24, R.color.grey_200),
+        )
+    }
+
+    private fun getQuickAccess(): List<MainService> {
+        return listOf(
+            MainService("Ada voucher nganggur nih", R.drawable.ic_round_discount_24, R.color.green_500),
+            MainService("Restoran terdekat", R.drawable.ic_round_restaurant_24, R.color.red_500),
         )
     }
 }
