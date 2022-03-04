@@ -3,8 +3,9 @@ package com.wiryadev.gojekclone.ui.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.wiryadev.gojekclone.MainService
+import com.wiryadev.gojekclone.data.MainService
 import com.wiryadev.gojekclone.R
+import com.wiryadev.gojekclone.data.Promo
 
 class HomeViewModel : ViewModel() {
 
@@ -17,6 +18,12 @@ class HomeViewModel : ViewModel() {
         value = getQuickAccess()
     }
     val quickAccess: LiveData<List<MainService>> = _quickAccess
+
+    private val _promos = MutableLiveData<List<Promo>>().apply {
+        value = getPromos()
+    }
+
+    val promos: LiveData<List<Promo>> = _promos
 
     private fun getMainService(): List<MainService> {
         return listOf(
@@ -35,6 +42,13 @@ class HomeViewModel : ViewModel() {
         return listOf(
             MainService("Ada voucher nganggur nih", R.drawable.ic_round_discount_24, R.color.green_500),
             MainService("Restoran terdekat", R.drawable.ic_round_restaurant_24, R.color.red_500),
+        )
+    }
+
+    private fun getPromos(): List<Promo> {
+        return listOf(
+            Promo(R.drawable.promo_1, "Promo Burger King: Cashback 50%", "Yuk buruan dateng ke Burger King mumpung ada Promo Burger King yang bakal kasih kamu cashback kalo transaksi pakai GoPay."),
+            Promo(R.drawable.promo_2, "Bonus Kuota 4GB untuk Pembelian Paket OMG", "Nikmati promo Telkomsel sekarang kalau isi paket data di GoTagihan/GoPulsa bisa dapet bonus tambahan!")
         )
     }
 }

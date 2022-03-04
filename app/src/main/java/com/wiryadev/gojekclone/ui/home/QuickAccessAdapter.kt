@@ -4,15 +4,15 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.wiryadev.gojekclone.MainService
+import com.wiryadev.gojekclone.data.MainService
 import com.wiryadev.gojekclone.databinding.ItemQuickAccessBinding
 import com.wiryadev.gojekclone.load
 
 class QuickAccessAdapter(
     private val services: List<MainService>
-) : RecyclerView.Adapter<QuickAccessAdapter.ServiceViewHolder>() {
+) : RecyclerView.Adapter<QuickAccessAdapter.QuickAccessViewHolder>() {
 
-    inner class ServiceViewHolder(
+    inner class QuickAccessViewHolder(
         private val binding: ItemQuickAccessBinding
     ) : RecyclerView.ViewHolder(binding.root) {
 
@@ -27,14 +27,14 @@ class QuickAccessAdapter(
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ServiceViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): QuickAccessViewHolder {
         val view = ItemQuickAccessBinding.inflate(
             LayoutInflater.from(parent.context), parent, false
         )
-        return ServiceViewHolder(view)
+        return QuickAccessViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: ServiceViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: QuickAccessViewHolder, position: Int) {
         holder.bind(services[position])
     }
 

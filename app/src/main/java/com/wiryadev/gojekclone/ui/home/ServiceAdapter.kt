@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.wiryadev.gojekclone.MainService
+import com.wiryadev.gojekclone.data.MainService
 import com.wiryadev.gojekclone.databinding.ItemMainServiceBinding
 import com.wiryadev.gojekclone.load
 

@@ -33,6 +33,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                 DividerItemDecoration(context, LinearLayoutManager.VERTICAL)
             )
         }
+
+        viewModel.promos.observe(viewLifecycleOwner) { promos ->
+            val adapter = PromoAdapter(promos)
+            binding.rvPromos.adapter = adapter
+        }
     }
 
 }

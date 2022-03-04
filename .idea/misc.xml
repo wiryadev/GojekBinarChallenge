@@ -3,15 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/drawable/go_club_gradient.xml" value="0.18" />
         <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/drawable/rounded_rectangle_12dp.xml" value="0.18" />
         <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/drawable/rounded_rectangle_8dp.xml" value="0.18" />
         <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/drawable/rounded_rectangle_blue_12dp.xml" value="0.18" />
         <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/drawable/rounded_search_shape.xml" value="0.18" />
         <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/layout/fragment_home.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/layout/item_main_service.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/layout/item_promo_card.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/layout/item_quick_access.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/layout/layout_go_club.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/layout/layout_gopay_balance.xml" value="0.75" />
         <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/layout/layout_gopay_main.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/layout/layout_quick_access.xml" value="0.3625" />
         <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/AndroidStudioProjects/GojekClone/app/src/main/res/menu/menu_home.xml" value="0.3625" />
       </map>
     </option>
   </component>
