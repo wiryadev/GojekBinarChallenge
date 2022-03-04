@@ -7,7 +7,7 @@
     tools:context=".ui.home.HomeFragment">
 
     <include
-        android:id="@+id/gopay"
+        android:id="@+id/go_pay"
         layout="@layout/layout_gopay_main"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -80,10 +80,32 @@
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gopay"
+        app:layout_constraintTop_toBottomOf="@+id/go_pay"
         app:spanCount="4"
         tools:itemCount="8"
         tools:listitem="@layout/item_main_service" />
+
+    <include
+        android:id="@+id/go_club"
+        layout="@layout/layout_go_club"
+        android:layout_width="0dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_services" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/akses_cepat"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/go_club" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

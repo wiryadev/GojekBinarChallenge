@@ -22,7 +22,7 @@ class HomeViewModel : ViewModel() {
             MainService("GoMart", R.drawable.ic_round_shopping_cart_24, R.color.red_500),
             MainService("GoPulsa", R.drawable.ic_round_charging_station_24, R.color.teal_200),
             MainService("Check In", R.drawable.ic_round_family_restroom_24, R.color.teal_200),
-            MainService("More", R.drawable.ic_round_dashboard_24, R.color.light_grey),
+            MainService("More", R.drawable.ic_round_dashboard_24, R.color.grey_200),
         )
     }
 }
