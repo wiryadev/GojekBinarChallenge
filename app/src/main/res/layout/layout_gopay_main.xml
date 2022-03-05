@@ -36,10 +36,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rounded_rectangle_white_8dp"
                 android:contentDescription="@string/pay"
-                app:srcCompat="@drawable/ic_round_arrow_upward_24"
-                app:tint="?attr/colorSecondary" />
+                app:srcCompat="@drawable/ic_payments_24_send_money" />
 
             <TextView
                 style="@style/TextAppearance.MaterialComponents.Subtitle2"
@@ -64,10 +62,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rounded_rectangle_white_8dp"
                 android:contentDescription="@string/top_up"
-                app:srcCompat="@drawable/ic_round_add_24"
-                app:tint="?attr/colorSecondary" />
+                app:srcCompat="@drawable/ic_payments_24_topup" />
 
             <TextView
                 style="@style/TextAppearance.MaterialComponents.Subtitle2"
@@ -91,10 +87,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rounded_rectangle_white_8dp"
                 android:contentDescription="@string/explore"
-                app:srcCompat="@drawable/ic_round_auto_graph_24"
-                app:tint="?attr/colorSecondary" />
+                app:srcCompat="@drawable/ic_payments_24_explore" />
 
             <TextView
                 style="@style/TextAppearance.MaterialComponents.Subtitle2"

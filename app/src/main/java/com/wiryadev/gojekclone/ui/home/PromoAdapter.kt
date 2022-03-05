@@ -2,12 +2,10 @@ package com.wiryadev.gojekclone.ui.home
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.wiryadev.gojekclone.data.MainService
+import coil.load
 import com.wiryadev.gojekclone.data.Promo
 import com.wiryadev.gojekclone.databinding.ItemPromoCardBinding
-import com.wiryadev.gojekclone.load
 
 class PromoAdapter(
     private val services: List<Promo>

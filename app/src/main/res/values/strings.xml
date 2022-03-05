@@ -18,4 +18,6 @@
     <string name="title_promos">Promos</string>
     <string name="title_orders">Orders</string>
     <string name="title_chat">Chat</string>
+    <string name="goclub">GoClub</string>
+    <string name="product_logo">Product Logo</string>
 </resources>

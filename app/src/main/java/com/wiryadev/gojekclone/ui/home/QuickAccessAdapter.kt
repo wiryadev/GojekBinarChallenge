@@ -2,11 +2,10 @@ package com.wiryadev.gojekclone.ui.home
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
 import com.wiryadev.gojekclone.data.MainService
 import com.wiryadev.gojekclone.databinding.ItemQuickAccessBinding
-import com.wiryadev.gojekclone.load
 
 class QuickAccessAdapter(
     private val services: List<MainService>
@@ -19,9 +18,6 @@ class QuickAccessAdapter(
         fun bind(data: MainService) {
             with(binding) {
                 ivQa.load(data.image)
-                ivQa.setColorFilter(
-                    ContextCompat.getColor(root.context, data.colorTint)
-                )
                 tvQa.text = data.name
             }
         }
