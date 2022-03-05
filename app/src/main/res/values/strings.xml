@@ -15,4 +15,7 @@
     <string name="akses_cepat">Akses Cepat</string>
     <string name="harta_karun_bentar_lagi_hilang">Harta Karun bentar lagi hilang</string>
     <string name="remaining_xp">193 XP lagi ada Harta Karun</string>
+    <string name="title_promos">Promos</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_chat">Chat</string>
 </resources>

@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.wiryadev.gojekclone.ui.promo.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_promos"
+        android:name="com.wiryadev.gojekclone.ui.promo.PromosFragment"
+        android:label="@string/title_promos"
+        tools:layout="@layout/fragment_promos" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.wiryadev.gojekclone.ui.order.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_orders"
+        android:name="com.wiryadev.gojekclone.ui.order.OrdersFragment"
+        android:label="@string/title_orders"
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.wiryadev.gojekclone.ui.chat.ChatFragment"
+        android:label="@string/title_chat"
+        tools:layout="@layout/fragment_chat" />
 </navigation>
