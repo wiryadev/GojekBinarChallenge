@@ -27,14 +27,14 @@ class HomeViewModel : ViewModel() {
 
     private fun getMainService(): List<MainService> {
         return listOf(
-            MainService("GoRide", R.drawable.ic_chat_product_goride),
-            MainService("GoCar", R.drawable.ic_chat_product_gocar),
-            MainService("GoFood", R.drawable.ic_chat_product_gofood),
-            MainService("GoSend", R.drawable.ic_chat_product_gosend),
-            MainService("GoMart", R.drawable.ic_chat_product_gomart),
-            MainService("GoPulsa", R.drawable.ic_payments_24_pulsa),
-            MainService("Check In", R.drawable.ic_transport_16_pedulilindungi),
-            MainService("More", R.drawable.ic_navigation_16_more_home),
+            MainService("GoRide", R.drawable.ic_go_ride),
+            MainService("GoCar", R.drawable.ic_go_car),
+            MainService("GoFood", R.drawable.ic_go_food),
+            MainService("GoSend", R.drawable.ic_go_send),
+            MainService("GoMart", R.drawable.ic_go_mart),
+            MainService("GoPulsa", R.drawable.ic_go_pulsa),
+            MainService("Check In", R.drawable.ic_go_check_in),
+            MainService("More", R.drawable.ic_go_more),
         )
     }
 

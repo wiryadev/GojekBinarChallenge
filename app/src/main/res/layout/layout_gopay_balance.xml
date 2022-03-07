@@ -10,7 +10,7 @@
         android:layout_width="60dp"
         android:layout_height="16dp"
         android:contentDescription="@string/gopay_logo"
-        android:src="@drawable/gopay_logo" />
+        android:src="@drawable/ic_gopay_with_text" />
 
     <TextView
         style="@style/TextAppearance.MaterialComponents.Headline6"

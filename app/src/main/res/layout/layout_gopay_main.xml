@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/rounded_rectangle_blue_12dp"
+    android:background="@drawable/rounded_rectangle_blue_16dp"
     android:paddingHorizontal="24dp"
     android:paddingVertical="16dp">
 

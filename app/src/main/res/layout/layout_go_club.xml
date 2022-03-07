@@ -9,19 +9,28 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/go_club_gradient"
-        android:paddingVertical="8dp">
+        android:background="@drawable/go_club_gradient">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/bg_go_club_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/iv_star"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_marginStart="12dp"
+            android:layout_marginVertical="8dp"
             android:contentDescription="@string/goclub"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_communication_16_goclub_logo" />
+            app:srcCompat="@drawable/ic_go_club_star" />
 
         <TextView
             android:id="@+id/tv_title_progress"
