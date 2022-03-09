@@ -50,11 +50,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="12dp"
+            android:contentDescription="@string/go_to_next_page"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_round_keyboard_arrow_right_24"
-            android:contentDescription="@string/go_to_next_page" />
+            app:srcCompat="@drawable/ic_round_keyboard_arrow_right_24" />
 
         <com.google.android.material.progressindicator.LinearProgressIndicator
             android:id="@+id/progressBar"
@@ -62,11 +62,11 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="24dp"
             android:progress="20"
+            app:indicatorColor="@color/green_500"
             app:layout_constraintBottom_toBottomOf="@+id/iv_star"
             app:layout_constraintEnd_toStartOf="@+id/iv_arrow"
             app:layout_constraintStart_toStartOf="@+id/tv_title_progress"
             app:layout_constraintTop_toTopOf="@+id/iv_star"
-            app:trackColor="@color/green_500"
             app:trackCornerRadius="@dimen/mtrl_progress_indicator_full_rounded_corner_radius" />
 
         <TextView
@@ -79,5 +79,7 @@
             app:drawableStartCompat="@drawable/ic_label_16_treasure_chest"
             app:layout_constraintBottom_toBottomOf="@+id/iv_star"
             app:layout_constraintStart_toStartOf="@+id/progressBar" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.cardview.widget.CardView>
