@@ -20,4 +20,7 @@
     <string name="title_chat">Chat</string>
     <string name="goclub">GoClub</string>
     <string name="product_logo">Product Logo</string>
+    <string name="promo_banner">Promo banner</string>
+    <string name="product_icon">Product Icon</string>
+    <string name="go_to_next_page">Go to next page</string>
 </resources>

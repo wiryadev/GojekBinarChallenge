@@ -14,41 +14,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:paddingHorizontal="16dp"
-                android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="16dp">
 
-                <!-- Use button because it only has clickable properties -->
-                <androidx.appcompat.widget.AppCompatButton
-                    android:layout_width="0dp"
-                    android:layout_height="36dp"
-                    android:layout_marginEnd="16dp"
-                    android:paddingStart="16dp"
-                    android:gravity="center_vertical"
-                    android:drawablePadding="12dp"
-                    android:textSize="14sp"
-                    android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
-                    android:drawableStart="@drawable/ic_round_search_24"
-                    android:background="@drawable/rounded_rectangle_white_24dp"
-                    android:text="@string/search_placeholder"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@id/iv_account"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+            <!-- Use button because it only has clickable properties -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/rounded_rectangle_white_24dp"
+                android:drawableStart="@drawable/ic_round_search_24"
+                android:drawablePadding="12dp"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:text="@string/search_placeholder"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/iv_account"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-                <ImageView
-                    android:id="@+id/iv_account"
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
-                    android:backgroundTint="@null"
-                    android:src="@drawable/ic_round_account_circle_24"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white" />
+            <ImageView
+                android:id="@+id/iv_account"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:backgroundTint="@null"
+                android:contentDescription="@string/account"
+                android:src="@drawable/ic_round_account_circle_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -60,9 +61,9 @@
         app:layout_constraintTop_toBottomOf="@id/appbar">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:paddingBottom="48dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:paddingBottom="48dp">
 
             <include
                 android:id="@+id/go_pay"
