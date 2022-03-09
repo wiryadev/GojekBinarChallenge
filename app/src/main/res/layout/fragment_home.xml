@@ -28,7 +28,7 @@
                 android:drawableStart="@drawable/ic_round_search_24"
                 android:drawablePadding="12dp"
                 android:gravity="center_vertical"
-                android:paddingStart="16dp"
+                android:paddingHorizontal="16dp"
                 android:text="@string/search_placeholder"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
                 android:textSize="14sp"
